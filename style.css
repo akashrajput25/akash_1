@@ -194,6 +194,7 @@ img
 .nav_logo
 {
     color:var(--second-color);
+    font-size: var(--h2-font-size);
 }
 
 .nav_toggle
@@ -223,7 +224,7 @@ img
 {
     height: calc(100vh -3rem);
     row-gap: 1rem;
-    padding-top: 40px;
+    padding-top: 8%;
 }
 
 .home_data
@@ -264,11 +265,18 @@ img
 .home_img
 {
     position: absolute;
+    padding-left: 20%;
     right: 0;
-    bottom: 0;
-    width: 295px;
+    left: 10;
+    bottom: 10;
+    width: 345px;
 }
 
+.home_img img
+{
+    border-radius: 30px;
+    border:solid 2px var(--first-color);
+}
 .button
 {
     display: inline-block;
@@ -543,7 +551,8 @@ skills_names
     .home_img
     {
         width: 480px;
-        bottom: 15%; 
+        bottom: 15%;
+        padding-left: 5%; 
     }
     .home_img img
     {
@@ -568,11 +577,13 @@ skills_names
     }
     .contact_form
     {
-        width: 460px; 
+        width: 660px;
+        margin: auto;
     }
     .contact_container
     {
-        justify-items: center;
+        text-align: center; 
+        
     }
 }
 
