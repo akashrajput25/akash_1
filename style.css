@@ -7,8 +7,8 @@
 
 :root
 {
-    --first-color:#4070F4;
-    --second-color:#0E2431;
+    --first-color:crimson;
+    --second-color:#5f5b5b;
 }
 
 :root
@@ -195,6 +195,7 @@ img
 .nav_logo
 {
     color:var(--second-color);
+    font-size: var(--h2-font-size);
     font-size: var(--h2-font-size);
 }
 
