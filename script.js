@@ -46,3 +46,48 @@ sr.reveal('.skills_img',{delay:400})
 sr.reveal('.work_img',{interval:200})
 
 sr.reveal('.contact_input',{interval:200})
+
+const typedTextSpan = document.querySelector('.typedtext');
+const cursorSpan = document.querySelector('.cursor');
+const textarray=["WEB DEVELOPER","PROGRAMMER","JR. DEVELOPER"];
+const typingDelay=200;
+const erasingDelay=100;
+const newTextDelay=2000;
+let textarrayIndex=0;
+let charIndex=0;
+
+function type()
+{
+    if(charIndex < textarray[textarrayIndex].length)
+    {
+     if(!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
+     typedTextSpan.textContent+=textarray[textarrayIndex].charAt(charIndex);
+     charIndex++;
+     setTimeout(type,typingDelay);
+    }
+    else{
+     cursorSpan.classList.remove("typing");
+     setTimeout(erase,newTextDelay);
+    }
+}
+
+function erase()
+{
+    if(charIndex>0)
+    {
+     if(!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
+     typedTextSpan.textContent =textarray[textarrayIndex].substring(0,charIndex-1);
+     charIndex--;
+     setTimeout(erase,erasingDelay);
+    }
+    else{
+     cursorSpan.classList.remove("typing");
+     textarrayIndex++;
+     if(textarrayIndex>=textarray.length) textarrayIndex=0;
+     setTimeout(type,typingDelay+1100);
+    }
+}
+document.addEventListener("DOMContentLoaded", function()
+{
+    if(textarray.length) setTimeout(type,newTextDelay + 250);
+});

@@ -14,7 +14,7 @@
 :root
 {
     --body-font:"Josefin Sans", sans-serif;
-    --big-font-size:2rem;
+    --big-font-size:1.8rem;
     --h2-font-size:1.25rem;
     --normal-font-size:0.938rem;
 }
@@ -97,6 +97,7 @@ img
     margin-top: var(--mb-2);
     margin-bottom: var(--mb-4);
     text-align: center;
+    font-weight: bolder;
 }
 
 .section-title::after
@@ -232,10 +233,38 @@ img
     align-self: center;
 }
 
+.typecontainer p
+{
+    font-size: 18px;
+    font-weight: 900;
+    font-weight: bolder;
+    letter-spacing: 0.1rem;
+    margin-bottom: var(--mb-6);
+}
+
+.typedtext
+{
+    color: #555;
+}
+
+.cursor
+{
+    display: inline-block;
+    width: 4px;
+    height: 16px;
+    background-color: #ccc;
+    margin-left: 0.1rem;
+    animation: blink 1s infinite;
+}
+
+.cursor.typing
+{
+    animation: none;
+}
 .home_title
 {
     font-size: var(--big-font-size);
-    margin-bottom: var(--mb-5);
+    margin-bottom: var(--mb-2);
 }
 
 .home_title-color
@@ -311,6 +340,7 @@ img
 {
     width: 200px;
     border-radius: .7rem;
+    border:solid 2px var(--first-color);
 }
 
 .skills_container
@@ -394,14 +424,15 @@ skills_names
 .skills_img
 {
     border-radius: .5rem;
-    width: 50%;
-    height: 50%;
+    width: 100%;
+    height: 100%;
     margin: auto;
 }
 
 .work
 {
     text-align: center;
+    padding: 2rem 10%;
 }
 
 .work_container
@@ -535,6 +566,25 @@ skills_names
         align-self: flex-end;
     }
 
+    .typecontainer p
+    {
+        font-size: 38px;
+        font-weight: 900;
+        font-weight: bolder;
+        letter-spacing: 0.1rem;
+        padding-bottom: 10px;
+    }
+
+    .cursor
+    {
+        display: inline-block;
+        width: 6px;
+        height: 38px;
+        background-color: #ccc;
+        margin-left: 0.1rem;
+        animation: blink 1s infinite;
+    }
+
     .home_social
     {
         padding-top: 0;
@@ -568,6 +618,13 @@ skills_names
     .about_img img
     {
         width: 300px;
+    }
+    .skills_img
+    {
+        border-radius: .5rem;
+        width: 55%;
+        height: 55%;
+        margin: auto;
     }
     .work_container
     {
