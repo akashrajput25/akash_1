@@ -599,9 +599,9 @@ skills_names
     }
     .home_img
     {
-        width: 480px;
+        width: 1080px;
         bottom: 15%;
-        padding-left: 5%; 
+        padding-left: 35%;
     }
     .home_img img
     {
