@@ -296,9 +296,9 @@ img
 {
     position: absolute;
     padding-left: 20%;
-    right: 0;
-    left: 10;
-    bottom: 10;
+    margin-right: 20px;
+    margin-left: 50%;
+    margin-bottom: 10%;
     width: 345px;
 }
 

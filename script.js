@@ -47,6 +47,9 @@ sr.reveal('.work_img',{interval:200})
 
 sr.reveal('.contact_input',{interval:200})
 
+sr.reveal('.footer_title',{interval:150})
+sr.reveal('.footer_social',{interval:250})
+
 const typedTextSpan = document.querySelector('.typedtext');
 const cursorSpan = document.querySelector('.cursor');
 const textarray=["WEB DEVELOPER","PROGRAMMER","JR. DEVELOPER"];
