@@ -38,6 +38,8 @@ sr.reveal('.about_img',{})
 sr.reveal('.about_subtitle',{delay:200})
 sr.reveal('.about_text',{delay:400})
 
+sr.reveal('.counting-sec',{delay:450})
+
 sr.reveal('.skills_subtitle',{})
 sr.reveal('.skills_text',{delay:200})
 sr.reveal('.skills_data',{interval:400})
@@ -47,8 +49,8 @@ sr.reveal('.work_img',{interval:200})
 
 sr.reveal('.contact_input',{interval:200})
 
-sr.reveal('.footer_title',{interval:150})
-sr.reveal('.footer_social',{interval:250})
+sr.reveal('.footer_title',{interval:200})
+sr.reveal('.footer_social',{interval:20})
 
 const typedTextSpan = document.querySelector('.typedtext');
 const cursorSpan = document.querySelector('.cursor');
