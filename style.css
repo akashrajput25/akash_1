@@ -344,7 +344,7 @@ img
 }
 
 .counting-sec {
-    padding: 10px 0;
+    padding: 9px 0;
     text-shadow: 0.5px 0.5px 0.5px #555;
     font-weight: 900;
     width: 100%;
@@ -373,7 +373,7 @@ img
 
 .num {
     font-size: 18px;
-    margin: 5px 0;
+    margin: 10px 0;
 }
 
 .skills_container
