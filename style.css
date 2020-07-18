@@ -60,6 +60,7 @@ html
 body
 {
     margin: var(--header-height) 0 0 0;
+    font-weight: 900;
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
     color: var(--second-color);
@@ -342,6 +343,39 @@ img
     border:solid 2px var(--first-color);
 }
 
+.counting-sec {
+    padding: 10px 0;
+    text-shadow: 0.5px 0.5px 0.5px #555;
+    font-weight: 900;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.inner-width {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+}
+
+.col {
+    flex: 1;
+    text-align: center;
+    font-size: 12px;
+    padding: 5px;
+    color: crimson;
+    text-transform: uppercase;
+}
+
+.col i {
+    font-size: 29px;
+    color: crimson;
+}
+
+.num {
+    font-size: 15px;
+    margin: 5px 0;
+}
+
 .skills_container
 {
     row-gap: 2rem;
@@ -378,7 +412,7 @@ img
     color: var(--first-color);
 }
 
-skills_names
+.skills_names
 {
     display: flex;
     align-items: center;
@@ -533,9 +567,10 @@ skills_names
     }
     .nav
     {
-        padding: 40px;
+        padding: 30px;
         height: calc(var(--header-height)+1rem);
     }
+    
     .nav_list
     {
         display: flex;
@@ -618,6 +653,18 @@ skills_names
     {
         width: 300px;
     }
+
+    .col{
+        padding: 10px;
+    }
+    .col i{
+        font-size: 40px;  
+    }
+    .num{
+        font-size: 40px;
+        margin: 20px 0;
+    }
+
     .skills_img
     {
         border-radius: .5rem;
