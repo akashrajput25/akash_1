@@ -585,7 +585,7 @@ img
         margin-left: var(--mb-6);
         margin-bottom: 0;
     }
-    .nav_link
+    .nav_link 
     {
         color: var(--second-color);
     }
