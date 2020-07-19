@@ -24,7 +24,7 @@ navLink.forEach(n => n.addEventListener('click', linkAction))
 
 const sr= ScrollReveal({
     origin: 'top',
-    distance: '80px',
+    distance: '100px',
     duration: 2000,
     reset: true
 })
@@ -34,23 +34,40 @@ sr.reveal('.button',{delay:200})
 sr.reveal('.home_img',{delay:400})
 sr.reveal('.home_social-icon',{interval:200})
 
-sr.reveal('.about_img',{})
-sr.reveal('.about_subtitle',{delay:200})
-sr.reveal('.about_text',{delay:400})
+const sb= ScrollReveal({
+    origin: 'bottom',
+    distance: '100px',
+    duration: 2000,
+    reset: true
+})
 
-sr.reveal('.counting-sec',{interval:200})
+sb.reveal('.about_img',{})
+sb.reveal('.about_subtitle',{delay:200})
+sb.reveal('.about_text',{delay:400})
+sb.reveal('.counting-sec',{interval:200})
 
-sr.reveal('.skills_subtitle',{})
-sr.reveal('.skills_text',{delay:200})
-sr.reveal('.skills_data',{interval:400})
-sr.reveal('.skills_img',{delay:400})
+sb.reveal('.work_img',{interval:200})
 
-sr.reveal('.work_img',{interval:200})
+sb.reveal('.contact_input',{interval:200})
 
-sr.reveal('.contact_input',{interval:200})
+sb.reveal('.footer',{interval:200})
+sb.reveal('.footer_title',{delay:400})
+sb.reveal('.footer_social',{interval:600})
 
-sr.reveal('.footer_title',{interval:200})
-sr.reveal('.footer_social',{interval:200})
+const sl= ScrollReveal({
+    origin: 'left',
+    distance: '100px',
+    duration: 2000,
+    reset: true
+})
+
+sl.reveal('.skills_subtitle',{})
+sl.reveal('.skills_text',{delay:200})
+sl.reveal('.skills_data',{interval:400})
+sl.reveal('.skills_img',{delay:400})
+
+
+
 
 const typedTextSpan = document.querySelector('.typedtext');
 const cursorSpan = document.querySelector('.cursor');
