@@ -66,9 +66,6 @@ sl.reveal('.skills_text',{delay:200})
 sl.reveal('.skills_data',{interval:400})
 sl.reveal('.skills_img',{delay:400})
 
-
-
-
 const typedTextSpan = document.querySelector('.typedtext');
 const cursorSpan = document.querySelector('.cursor');
 const textarray=["WEB DEVELOPER","PROGRAMMER","JR. DEVELOPER"];

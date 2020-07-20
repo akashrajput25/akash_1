@@ -198,7 +198,6 @@ img
 {
     color:var(--second-color);
     font-size: var(--h2-font-size);
-    font-size: var(--h2-font-size);
 }
 
 .nav_toggle
@@ -345,7 +344,7 @@ img
 }
 
 .counting-sec {
-    padding: 80px 0;
+    padding: 60px 0;
     text-shadow: 0.5px 0.5px 0.5px #555;
     font-weight: 900;
     width: 100%;
@@ -500,7 +499,7 @@ img
     border-radius: .5rem;
     border: 1px solid var(--second-color);
     outline: none;
-    margin-bottom: var(--mb-4);
+    margin-bottom: var(--mb-3);
 }
 
 .contact
