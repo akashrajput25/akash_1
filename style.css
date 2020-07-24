@@ -272,18 +272,20 @@ img
 .home_title-color
 {
     color:var(--first-color);
+    
 }
 
 .home_social
 {
     display: flex;
     flex-direction: column;
+    padding-bottom: 10rem;
 }
 
 .home_social-icon
 {
     width:max-content;
-    margin-bottom: var(--mb-2);
+    margin-bottom: var(--mb-5);
     font-size: 1.5rem;
     color:var(--second-color);
 }
@@ -324,6 +326,7 @@ img
 .about_container
 {
     row-gap: 2rem;
+    margin-top: var(--mb-4);
     text-align: center;
 }
 
