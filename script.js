@@ -50,7 +50,6 @@ sb.reveal('.work_img',{interval:200})
 
 sb.reveal('.contact_input',{interval:200})
 
-sb.reveal('.footer',{interval:200})
 sb.reveal('.footer_title',{delay:400})
 sb.reveal('.footer_social',{interval:600})
 
