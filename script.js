@@ -109,3 +109,15 @@ document.addEventListener("DOMContentLoaded", function()
 {
     if(textarray.length) setTimeout(type,newTextDelay + 250);
 });
+
+const countEl = document.getElementById('count');
+
+updateVisitCount();
+
+function updateVisitCount() {
+	fetch('https://api.countapi.xyz/update/florin-popcom/codepen/?amount=1')
+	.then(res => res.json())
+	.then(res => {
+		countEl.innerHTML = res.value;
+	})
+}
