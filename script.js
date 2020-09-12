@@ -47,11 +47,7 @@ sb.reveal('.about_text',{delay:400})
 sb.reveal('.counting-sec',{interval:200})
 
 sb.reveal('.work_img',{interval:200})
-
-sb.reveal('.contact_input',{interval:200})
-
-sb.reveal('.footer_title',{delay:400})
-sb.reveal('.footer_social',{interval:600})
+sb.reveal('.contact_container',{interval:200})
 
 const sl= ScrollReveal({
     origin: 'left',
@@ -64,6 +60,8 @@ sl.reveal('.skills_subtitle',{})
 sl.reveal('.skills_text',{delay:200})
 sl.reveal('.skills_data',{interval:400})
 sl.reveal('.skills_img',{delay:400})
+sl.reveal('.footer_title',{delay:400})
+sl.reveal('.footer_social',{interval:600})
 
 const typedTextSpan = document.querySelector('.typedtext');
 const cursorSpan = document.querySelector('.cursor');
