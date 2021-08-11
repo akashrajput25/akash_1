@@ -62,7 +62,7 @@ body
     margin: var(--header-height) 0 0 0;
     font-weight: 900;
     background-color: #555;
-    text-shadow: 3px 2px 0px rgba(41, 39, 39, 0.788);
+    text-shadow: 2px 2px 2px rgba(17, 16, 16, 0.788);
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
     color: var(--second-color);
