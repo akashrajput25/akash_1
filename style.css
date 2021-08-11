@@ -412,7 +412,7 @@ p.home_title{
     position: relative;
     font-weight: var(--font-semi);
     padding: .5rem 1rem;
-    margin-bottom: 100px;
+    margin-bottom: 90px;
     border-radius: .5rem;
     box-shadow: 0 4px 25px rgba(179, 179, 179, 0.849);
 }
