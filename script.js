@@ -55,8 +55,7 @@ const sl= ScrollReveal({
     duration: 2000,
     reset: true
 })
-
-sl.reveal('.skills_subtitle',{})
+sl.reveal('.section-title',{delay:200})
 sl.reveal('.skills_text',{delay:200})
 sl.reveal('.skills_data',{interval:400})
 sl.reveal('.skills_img',{delay:400})
