@@ -127,8 +127,6 @@ img
     max-width: 1024px;
     display: grid;
     background: #555;
-    /* border-top-right-radius: 30px;
-    border-top-left-radius: 30px; */
     grid-template-columns: 100%;
     grid-column-gap: 2rem;
     width: calc(100% - 2rem);
@@ -318,6 +316,7 @@ p.home_title{
 .home_img img
 {
     border-radius: 30px;
+    box-shadow: 0 8px 14px rgba(175, 171, 171, 0.61);
     border:solid 2px var(--first-color);
 }
 .button
