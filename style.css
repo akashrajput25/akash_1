@@ -7,8 +7,8 @@
 
 :root
 {
-    --first-color:rgb(201, 102, 214);
-    --second-color:#a7a7a7;
+    --first-color:rgb(133, 133, 133);
+    --second-color:#aaaaaa;
 }
 
 :root
@@ -61,7 +61,7 @@ body
 {
     margin: var(--header-height) 0 0 0;
     font-weight: 900;
-    background-color: #555;
+    background-color: rgb(43, 42, 42);
     text-shadow: 2px 2px 2px rgba(17, 16, 16, 0.788);
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
@@ -126,7 +126,7 @@ img
 {
     max-width: 1024px;
     display: grid;
-    background: #555;
+    background: rgb(43, 42, 42);
     grid-template-columns: 100%;
     grid-column-gap: 2rem;
     width: calc(100% - 2rem);
@@ -140,10 +140,10 @@ img
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #555;;
+    background-color: rgb(43, 42, 42);
     z-index: var(--z-fixed);
     margin-bottom: var(--mb-3);
-    box-shadow: 0 3px 4px rgba(226, 10, 255, 0.5);
+    box-shadow: 0 3px 4px rgba(255, 10, 63, 0.5);
 }
 
 .nav
@@ -195,7 +195,7 @@ img
     height: 0.18rem;
     left: 0;
     top: 2rem;
-    background-color: var(--first-color);
+    background-color: rgba(255, 10, 63, 0.795);
 }
 
 .nav_logo
@@ -259,7 +259,7 @@ img
     display: inline-block;
     width: 4px;
     height: 16px;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(184, 176, 176);
     margin-left: 0.1rem;
     animation: blink 1s infinite;
 }
@@ -295,27 +295,30 @@ p.home_title{
     width:max-content;
     margin-bottom: var(--mb-1);
     margin-top: var(--mb-3);
-    margin-left: var(--mb-3);
+    margin-left: var(--mb-4);
     font-size: 1.5rem;
     color:var(--second-color);
 }
 
 .home_social-icon:hover
 {
-    color: var(--first-color);
+    color: rgba(240, 18, 66, 0.993);
 }
 
 .home_img
 {
     position: absolute;
-    margin-left: 65%;
+    margin-left: 52%;
+    padding-right: 0;
     margin-bottom: 10%;
-    width: 215px;
+    width: 175px;
 }
 
 .home_img img
 {
-    border-radius: 30px;
+
+    border-radius: 10px;
+    border-top-left-radius: 20px;
     box-shadow: 0 8px 14px rgba(175, 171, 171, 0.61);
     border:solid 2px var(--first-color);
 }
@@ -333,7 +336,7 @@ p.home_title{
 
 .button:hover
 {
-    box-shadow: 0 6px 20px rgba(212, 206, 206, 0.788);
+    box-shadow: 0 6px 20px rgba(255, 255, 255, 0.788);
 }
 
 .about_container
@@ -364,7 +367,7 @@ p.home_title{
     text-shadow: 0.5px 0.5px 0.5px #555;
     font-weight: 900;
     width: 100%;
-    background-color: #555;
+    background-color: rgb(43, 42, 42);
     text-shadow: 2px 2px 2px rgba(10, 10, 10, 0.788);
 }
 
@@ -379,13 +382,13 @@ p.home_title{
     text-align: center;
     font-size: 10px;
     padding: 8px;
-    color: rgb(204, 8, 253);
+    color:rgb(151, 150, 150);;
     text-transform: uppercase;
 }
 
 .col i {
     font-size: 25px;
-    color: rgb(213, 20, 220);
+    color: rgb(150, 150, 150);
 }
 
 .num {
@@ -541,7 +544,7 @@ p.home_title{
 .footer_icon
 {
     font-size: 1.5rem;
-    color:rgb(148, 148, 148);
+    color:rgb(202, 202, 202);
     margin: 0 var(--mb-2);
     transition: 0.3s;
 }
