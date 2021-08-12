@@ -308,8 +308,7 @@ p.home_title{
 .home_img
 {
     position: absolute;
-    margin-left: 52%;
-    padding-right: 0;
+    margin-left: 50%;
     margin-bottom: 10%;
     width: 175px;
 }
