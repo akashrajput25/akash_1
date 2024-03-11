@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap");
 :root
 {
-   --header-height:3rem;
+   --header-height:1.5rem;
    --font-semi:600;
 }
 
@@ -108,7 +108,7 @@ img
     position: absolute;
     content: '';
     width: 64px;
-    height: 0.18rem;
+    height: 0.12rem;
     left: 0;
     right: 0;
     margin: auto;
@@ -251,7 +251,7 @@ img
 
 .typedtext
 {
-    color: rgb(161, 161, 161);
+    color: rgb(170, 150, 194);
 }
 
 .cursor
@@ -259,7 +259,7 @@ img
     display: inline-block;
     width: 4px;
     height: 16px;
-    background-color: rgb(184, 176, 176);
+    background-color: rgb(171, 43, 43);
     margin-left: 0.1rem;
     animation: blink 1s infinite;
 }
@@ -575,7 +575,7 @@ p.home_title{
     }
     .nav
     {
-        padding: 30px;
+        padding: 14px;
         height: calc(var(--header-height)+1rem);
     }
     

@@ -64,10 +64,10 @@ sl.reveal('.footer_social',{interval:600})
 
 const typedTextSpan = document.querySelector('.typedtext');
 const cursorSpan = document.querySelector('.cursor');
-const textarray=["WEB DEVELOPER","PROGRAMMER","JR. DEVELOPER"];
-const typingDelay=200;
-const erasingDelay=100;
-const newTextDelay=2000;
+const textarray=["Java/Netsuite/SQL Developer","Workato Automation Developer","Technology Driven"];
+const typingDelay=100;
+const erasingDelay=50;
+const newTextDelay=1000;
 let textarrayIndex=0;
 let charIndex=0;
 
