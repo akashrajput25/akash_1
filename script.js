@@ -10,7 +10,6 @@ const showMenu = (toggleId,navId) =>{
     }
 }
 showMenu('nav-toggle','nav-menu');
-
 const navLink = document.querySelectorAll(".nav_link")
 function linkAction()
 {
